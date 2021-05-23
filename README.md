@@ -1,2 +1,2 @@
 # Microsoft-Minecraft-Auth
-Simple xbox minecraft auth
+Microsoft-Minecraft-Auth is a simple xbox minecraft auth
