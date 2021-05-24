@@ -1,7 +1,12 @@
 # Microsoft-Minecraft-Auth
 Microsoft-Minecraft-Auth is a simple xbox minecraft auth
 
-# Usage
+# How to install
+```
+pip install msmcauth
+```
+
+# Example of usage
 ```py
 import msmcauth
 
