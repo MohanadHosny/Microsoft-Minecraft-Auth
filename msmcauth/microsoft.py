@@ -155,8 +155,8 @@ class Microsoft:
         }
 
         resp = self.client.get(PROFILE, headers=headers).json()
-                
+        
         return UserProfile(
-            username=resp["name"],
-            uuid=resp["id"]
+            username=resp.get("name"),
+            uuid=resp.get("id")
         )
